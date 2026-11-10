@@ -8,3 +8,19 @@ Estoy aprendieno bases de datos, programación en Java
 
 
 Ubicacion : Calle San Bartolome 7
+
+
+ final int [] nums = {132,2,3,4,23,12};
+      int cont = 0;
+      //recorrer;
+      for (int i = 0; i < nums.length;i++){
+          System.out.print(nums[i] + " ");
+      }
+        System.out.println();
+        //condicion de par y mayor que 10:
+        for (int i = 0;i < nums.length;i++){
+            if(nums[i] % 2 == 0 && nums[i] > 10){
+                cont++;
+            }
+        }
+        System.out.println("los numeros pares y mayor de diez son : "  + cont);
